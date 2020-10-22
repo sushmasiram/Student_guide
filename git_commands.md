@@ -12,19 +12,21 @@ git config --global user.email "sushma.motamarri@gmail.com"
 
 
 
-###### Files navigation in cmd prompt
+###### Files navigation in gitbash
 
-dir: list the items of current location
+ls: list the items of current location
 
 pwd: present working directory
 
 mkdir: make a new directory
 
 cd: change a directory
+cd desktop/coding/
 
 vi <file_name> -- to open a file in editor
+vi angrybirdsv2.5
 
-shift+i -- to edit the file.. we should use this after opening the file using vi <file_name>
+i -- to edit the file.. we should use this after opening the file using vi <file_name>
 
 after making the changes in the file.. click 'esc' button to come out of the insert mode
 
@@ -43,6 +45,10 @@ git clone https://github.com/whitehatjr/bouncyBall
 git status - To see any new updates that are to be commited
 
 git log - To see history of the repo
+
+git add <filename> to add a single file to the git repo
+
+git add sketch.js
 
 git add .   Adds all the files that are edited
 
