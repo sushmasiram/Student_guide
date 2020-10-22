@@ -32,7 +32,7 @@ after making the changes in the file.. click 'esc' button to come out of the ins
 
 :w --- to save changes in the file, after coming out of the insert mode
 
-:q-- to exit from vi . 
+:q-- to exit from vi
 
 :wq -- to save changes and exit from vi editor.
 
