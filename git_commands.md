@@ -2,8 +2,6 @@
 
 ###### create a local git configuration for our account
 
-
-
 ```
 git config --global user.name "sushmasiram"
 
@@ -37,34 +35,40 @@ after making the changes in the file.. click 'esc' button to come out of the ins
 :wq -- to save changes and exit from vi editor.
 
 
-
 ###### clone a repo to local
 
-git clone https://github.com/whitehatjr/bouncyBall
+git clone url  -- To clone a github repo to local machine.
 
-git status - To see any new updates that are to be commited
+```git clone https://github.com/whitehatjr/bouncyBall```
 
-git log - To see history of the repo
 
-git add <filename> to add a single file to the git repo
+git status -- To see any new updates that are to be commited
 
-git add sketch.js
+git log -- To see history of the repo
+
+git add filename to add a single file to the git repo
+
+``` git add sketch.js```
+
+
 
 git add .   Adds all the files that are edited
 
-git commit     commits the changes
-
 git commit -m "any message" -- this is to commit all the files to the local repository 
 
-###### 
+###### add local repo to github
 
 
--- create an empty repository in git hub, and get the https url from the page.
+-- create an empty repository in github, and get the https url from the page.
 
--- Now add our local repository to the empty git hub repository.
+Add our local repository to the empty git hub repository.
 
- git remote add <empty repository name> <empty repository url>
+ git remote add empty_repo_name empty_repository_url -- the empty repo name can be any name
 
--- Now push all the files from our local sytem to the empty repository .
+To push all the files from our local sytem to that empty github repository .
 
-git push -u <empty repository name> 
+git push -u empty_repo_name -- The empty repo name should be same as the one used to add files from local.
+
+```git remote add abv4  https://github.com/sushmasiram/AngryBirds
+   git push -u abv4```
+   
