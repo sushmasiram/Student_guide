@@ -78,3 +78,13 @@ git remote add abv4  https://github.com/sushmasiram/AngryBirds
 git push -u abv4
 ```
    
+  ## Create New git repo in local system
+  Go to the folder where you want to create a git repo and then type
+  ```
+  git init
+  ```
+  then follow the steps to add files and commit in git repo
+  ```
+  git add .
+  git commit -m "message"
+  ```
