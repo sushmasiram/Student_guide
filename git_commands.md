@@ -62,7 +62,6 @@ git commit -m "any message" -- this is to commit all the files to the local repo
 
 #### add local repo to github
 
-
 -- create an empty repository in github, and get the https url from the page.
 
 Add our local repository to the empty git hub repository.
@@ -88,3 +87,10 @@ git push -u abv4
   git add .
   git commit -m "message"
   ```
+  
+  git branch new_branch
+
+git checkout new_branch 
+git checkout commit_id of previuos commits
+
+git pull repo_name master
